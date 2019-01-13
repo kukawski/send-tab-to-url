@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Settings</title>
+    <style>
+        fieldset {
+            padding: 1em;
+            border-width: 1px;
+            border-style: solid;
+        }
+
+        legend {
+            padding: 0.5em;
+            border: inherit;
+        }
+    </style>
+  </head>
+  <body>
+    <form>
+        <fieldset class="browser-style">
+            <div class="browser-style">
+                <select name="target">
+                    <option value="currentTab" selected>Current tab</option>
+                    <option value="newTab">New tab</option>
+                    <option value="newWindow">New window</option>
+                    <option value="newPrivate">New private window</option>
+                </select>
+                <label><input placeholder="URL" name="url" required></label>
+                <label><input placeholder="Name" name="name" required></label>
+                <button>Add</button>
+            </div>
+        </fieldset>
+    </form>
+  </body>
+</html>

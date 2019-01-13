@@ -24,6 +24,10 @@
             "<all_urls>"
         ]
     },
+    "options_ui": {
+        "page": "settings.html",
+        "browser_style": true
+    },
     "icons": {
         "48": "icon.svg",
         "96": "icon.svg"
