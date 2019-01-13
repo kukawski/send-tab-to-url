@@ -1,0 +1,8 @@
+{
+    "extensionName": {
+        "message": "Wyślij stronę do URL"
+    },
+    "extensionDescription": {
+        "message": "Wykonuj żądania HTTP do dowolnego adresu z szczegółami bieżącej strony."
+    }
+}

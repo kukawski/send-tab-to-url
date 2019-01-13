@@ -1,0 +1,8 @@
+{
+    "extensionName": {
+        "message": "Send tab to URL"
+    },
+    "extensionDescription": {
+        "message": "Make HTTP requests to any URL with current page's details."
+    }
+}
